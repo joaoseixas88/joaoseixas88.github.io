@@ -1,0 +1,21 @@
+body{
+    background: rgb(55, 2, 116);
+}
+
+header {
+    text-align:  center;
+    font: 20pt Arial normal;
+    color: white;
+}
+section{
+    background: white;
+    width: 100px;
+    height: 500px;
+    border-radius: 30px;
+    padding: 10px;
+}
+p{
+    text-align: left;
+    color: rgb(7, 7, 7);
+    font: normal 15pt Arial;
+}    
