@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Numeros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <Header>
+        Analisador de Numeros
+    </Header>
+    <Section>
+        <div id="add">
+            Numero(1-100) Não repetido:
+            <input type="number" name="numero" id="numero">
+            <input type="button" value="Adicionar" onclick="add()">           
+        </div>
+        <div id="select">
+            <select name="numeros" id="seltab" size="6"></select><br>
+            <p><input type="button" value="Finalizar" onclick="finalizar()">           </p>
+        </div>           
+        <div id="res"> Resultado:</div>
+        <footer id="back">
+            <a href="../exercicios.html">Voltar</a>
+        </footer>
+    </Section>
+    <footer>Joao Seixas</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

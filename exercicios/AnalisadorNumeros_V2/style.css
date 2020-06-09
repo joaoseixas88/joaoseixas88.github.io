@@ -1,0 +1,48 @@
+body{
+    background: rgb(88, 6, 126);
+}
+header{
+    margin: auto;
+    text-align: center;
+    font: normal 30pt Arial;
+    color: white;
+}
+section{
+    background: white;
+    width: 550px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+div#add{
+    font: normal 15pt Arial;
+    text-align: center;
+}
+select#seltab{
+    text-align: left;
+    margin-left: 15px;
+    padding: 2px;
+    width: 200px; 
+}
+p{
+    margin-left: 15px;
+}
+
+
+div#res{
+    text-align: left;
+    margin-left: 15px;
+    
+}
+footer {
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+footer#back{
+    margin-top: 20px;
+    text-align: left;
+    
+}
